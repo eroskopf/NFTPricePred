@@ -9,3 +9,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #need to import the files
+f = open("./data/jun17_nov21_nft_sales.csv",'r')
+nft = pd.read_csv(f)
+nft.head()
