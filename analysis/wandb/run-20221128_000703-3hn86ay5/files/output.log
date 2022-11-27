@@ -1,0 +1,86 @@
+nothing
+nothing
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_14396\2930816559.py:18: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_14396\2930816559.py:18: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_14396\2930816559.py:18: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_14396\2930816559.py:18: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_14396\2930816559.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_14396\2930816559.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_14396\2930816559.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_14396\2930816559.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test[i]=s_s
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to
+==================================================================================================
+ input_1 (InputLayer)           [(None, 10, 5)]      0           []
+ lstm (LSTM)                    [(None, 100),        42400       ['input_1[0][0]']
+                                 (None, 100),
+                                 (None, 100)]
+ repeat_vector (RepeatVector)   (None, 5, 100)       0           ['lstm[0][0]']
+ lstm_1 (LSTM)                  (None, 5, 100)       80400       ['repeat_vector[0][0]',
+                                                                  'lstm[0][1]',
+                                                                  'lstm[0][2]']
+ time_distributed (TimeDistribu  (None, 5, 5)        505         ['lstm_1[0][0]']
+ ted)
+==================================================================================================
+Total params: 123,305
+Trainable params: 123,305
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Model: "model_1"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to
+==================================================================================================
+ input_2 (InputLayer)           [(None, 10, 5)]      0           []
+ lstm_2 (LSTM)                  [(None, 10, 100),    42400       ['input_2[0][0]']
+                                 (None, 100),
+                                 (None, 100)]
+ lstm_3 (LSTM)                  [(None, 100),        80400       ['lstm_2[0][0]']
+                                 (None, 100),
+                                 (None, 100)]
+ repeat_vector_1 (RepeatVector)  (None, 5, 100)      0           ['lstm_3[0][0]']
+ lstm_4 (LSTM)                  (None, 5, 100)       80400       ['repeat_vector_1[0][0]',
+                                                                  'lstm_2[0][1]',
+                                                                  'lstm_2[0][2]']
+ lstm_5 (LSTM)                  (None, 5, 100)       80400       ['lstm_4[0][0]',
+                                                                  'lstm_3[0][1]',
+                                                                  'lstm_3[0][2]']
+ time_distributed_1 (TimeDistri  (None, 5, 5)        505         ['lstm_5[0][0]']
+ buted)
+==================================================================================================
+Total params: 284,105
+Trainable params: 284,105
+Non-trainable params: 0
+__________________________________________________________________________________________________
