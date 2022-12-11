@@ -1,0 +1,270 @@
+2022-12-04 18:05:23,085 INFO    StreamThr :14300 [internal.py:wandb_internal():88] W&B internal server running at pid: 14300, started at: 2022-12-04 18:05:23.085578
+2022-12-04 18:05:23,093 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: status
+2022-12-04 18:05:23,093 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: status
+2022-12-04 18:05:23,101 DEBUG   SenderThread:14300 [sender.py:send():303] send: header
+2022-12-04 18:05:23,101 INFO    WriterThread:14300 [datastore.py:open_for_write():75] open: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\run-13iripds.wandb
+2022-12-04 18:05:23,101 DEBUG   SenderThread:14300 [sender.py:send():303] send: run
+2022-12-04 18:05:25,670 INFO    SenderThread:14300 [dir_watcher.py:__init__():216] watching files in: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files
+2022-12-04 18:05:25,670 INFO    SenderThread:14300 [sender.py:_start_run_threads():928] run started: 13iripds with start time 1670173522.121007
+2022-12-04 18:05:25,673 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:05:25,675 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: check_version
+2022-12-04 18:05:25,675 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:05:25,675 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: check_version
+2022-12-04 18:05:25,952 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: run_start
+2022-12-04 18:05:25,992 DEBUG   HandlerThread:14300 [system_info.py:__init__():31] System info init
+2022-12-04 18:05:25,992 DEBUG   HandlerThread:14300 [system_info.py:__init__():46] System info init done
+2022-12-04 18:05:25,992 INFO    HandlerThread:14300 [system_monitor.py:start():150] Starting system monitor
+2022-12-04 18:05:25,992 INFO    SystemMonitor:14300 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-04 18:05:25,992 INFO    HandlerThread:14300 [system_monitor.py:probe():168] Collecting system info
+2022-12-04 18:05:26,000 INFO    SystemMonitor:14300 [interfaces.py:start():168] Started cpu
+2022-12-04 18:05:26,000 DEBUG   HandlerThread:14300 [system_info.py:probe():195] Probing system
+2022-12-04 18:05:26,008 INFO    SystemMonitor:14300 [interfaces.py:start():168] Started disk
+2022-12-04 18:05:26,008 INFO    SystemMonitor:14300 [interfaces.py:start():168] Started memory
+2022-12-04 18:05:26,032 INFO    SystemMonitor:14300 [interfaces.py:start():168] Started network
+2022-12-04 18:05:26,040 DEBUG   HandlerThread:14300 [system_info.py:_probe_git():180] Probing git
+2022-12-04 18:05:26,152 DEBUG   HandlerThread:14300 [system_info.py:_probe_git():188] Probing git done
+2022-12-04 18:05:26,152 DEBUG   HandlerThread:14300 [system_info.py:probe():241] Probing system done
+2022-12-04 18:05:26,152 DEBUG   HandlerThread:14300 [system_monitor.py:probe():177] {'os': 'Windows-10-10.0.22000-SP0', 'python': '3.9.12', 'heartbeatAt': '2022-12-04T17:05:26.008621', 'startedAt': '2022-12-04T17:05:14.784178', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'OneDrive/Documents/GitHub/NFTPricePred/analysis/WandbWork.ipynb', 'root': 'C:/Users/aitbudapest/OneDrive/Documents/GitHub/NFTPricePred', 'git': {'remote': 'https://github.com/eroskopf/NFTPricePred.git', 'commit': 'f0b814362878133718170d3201a14f246f456316'}, 'email': 'roskopfe@carleton.edu', 'host': 'AIT2022-1', 'username': 'aitbudapest', 'executable': 'C:\\Users\\aitbudapest\\anaconda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 1498.0, 'min': 0.0, 'max': 1498.0}, 'cpu_freq_per_core': [{'current': 1498.0, 'min': 0.0, 'max': 1498.0}], 'disk': {'total': 474.18749618530273, 'used': 147.8169937133789}, 'memory': {'total': 15.72928237915039}}
+2022-12-04 18:05:26,152 INFO    HandlerThread:14300 [system_monitor.py:probe():178] Finished collecting system info
+2022-12-04 18:05:26,152 INFO    HandlerThread:14300 [system_monitor.py:probe():181] Publishing system info
+2022-12-04 18:05:26,152 DEBUG   HandlerThread:14300 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-04 18:05:26,152 DEBUG   HandlerThread:14300 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-04 18:05:26,152 DEBUG   HandlerThread:14300 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-12-04 18:05:26,680 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\requirements.txt
+2022-12-04 18:05:26,680 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\conda-environment.yaml
+2022-12-04 18:05:26,680 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:06:08,634 DEBUG   HandlerThread:14300 [system_info.py:_save_conda():86] Saving conda packages done
+2022-12-04 18:06:08,634 INFO    HandlerThread:14300 [system_monitor.py:probe():183] Finished publishing system info
+2022-12-04 18:06:08,634 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:06:08,642 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:06:08,682 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:06:09,070 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\conda-environment.yaml
+2022-12-04 18:06:09,071 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-metadata.json
+2022-12-04 18:06:10,161 DEBUG   SenderThread:14300 [sender.py:send():303] send: telemetry
+2022-12-04 18:06:10,162 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:06:10,611 DEBUG   SenderThread:14300 [sender.py:send():303] send: files
+2022-12-04 18:06:10,611 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-04 18:06:10,996 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:06:10,996 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:06:11,086 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:06:11,627 INFO    Thread-44 :14300 [upload_job.py:push():143] Uploaded file C:\Users\AITBUD~1\AppData\Local\Temp\tmp18b_6t_5wandb\3dfkjnwp-wandb-metadata.json
+2022-12-04 18:06:12,459 DEBUG   SenderThread:14300 [sender.py:send():303] send: telemetry
+2022-12-04 18:06:12,459 DEBUG   SenderThread:14300 [sender.py:send():303] send: telemetry
+2022-12-04 18:06:12,465 DEBUG   SenderThread:14300 [sender.py:send():303] send: files
+2022-12-04 18:06:12,465 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file model-best.h5 with policy live
+2022-12-04 18:06:12,465 DEBUG   SenderThread:14300 [sender.py:send():303] send: telemetry
+2022-12-04 18:06:12,465 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: get_summary
+2022-12-04 18:06:13,109 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:06:25,233 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\config.yaml
+2022-12-04 18:06:26,040 DEBUG   SystemMonitor:14300 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-04 18:06:26,046 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:06:26,272 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:06:26,272 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:06:41,570 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:06:41,570 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:06:45,359 DEBUG   SenderThread:14300 [sender.py:send():303] send: files
+2022-12-04 18:06:45,360 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file model-best.h5 with policy live
+2022-12-04 18:06:45,361 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: get_summary
+2022-12-04 18:06:47,428 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:06:56,056 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:06:58,127 DEBUG   SenderThread:14300 [sender.py:send():303] send: files
+2022-12-04 18:06:58,128 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file media\graph\graph_summary_789d68623504a9f67300.graph.json with policy now
+2022-12-04 18:06:58,134 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:06:58,141 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:06:58,279 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:06:58,279 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:06:58,576 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:06:58,576 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\media\graph\graph_summary_789d68623504a9f67300.graph.json
+2022-12-04 18:06:58,576 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\media
+2022-12-04 18:06:58,576 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\media\graph
+2022-12-04 18:06:59,591 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:00,679 INFO    Thread-45 :14300 [upload_job.py:push():143] Uploaded file C:\Users\AITBUD~1\AppData\Local\Temp\tmp18b_6t_5wandb\3cyqfqj0-media/graph/graph_summary_789d68623504a9f67300.graph.json
+2022-12-04 18:07:01,682 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:03,700 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:05,731 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:07,745 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:09,762 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:11,778 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:12,874 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:07:12,874 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:07:12,882 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:07:12,882 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:07:12,890 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:07:13,798 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:13,798 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:07:15,209 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:07:15,209 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:07:15,817 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:17,875 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:19,887 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:21,921 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:23,949 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:25,996 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:26,072 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:07:27,397 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:07:27,405 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:07:27,405 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:07:27,405 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:07:27,413 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:07:28,034 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:28,034 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:07:30,064 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:32,103 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:32,136 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:07:32,136 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:07:33,107 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:35,152 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:37,185 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:39,238 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:41,272 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:42,078 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:07:42,078 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:07:42,086 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:07:42,086 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:07:42,086 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:07:42,304 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:07:43,311 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:45,383 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:47,431 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:49,293 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:07:49,293 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:07:49,499 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:51,531 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:53,547 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:55,617 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:56,070 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:07:57,094 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:07:57,102 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:07:57,102 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:07:57,102 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:07:57,110 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:07:57,648 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:07:57,648 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:07:59,708 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:01,744 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:03,773 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:05,818 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:06,130 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:08:06,130 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:08:07,869 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:09,885 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:11,925 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:08:11,925 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:08:11,925 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:08:11,933 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:08:11,937 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:08:11,938 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:12,944 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:08:13,956 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:16,002 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:18,047 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:20,092 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:22,135 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:23,193 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:08:23,193 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:08:24,222 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:26,079 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:08:26,302 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:26,562 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:08:26,562 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:08:26,562 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:08:26,562 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:08:26,570 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:08:27,311 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:08:28,315 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:30,348 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:32,372 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:34,386 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:36,415 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:38,453 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:40,112 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:08:40,112 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:08:40,502 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:41,719 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:08:41,719 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:08:42,088 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:08:42,088 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:08:42,100 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:08:42,610 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:42,611 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:08:43,619 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:45,640 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:47,670 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:49,695 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:51,752 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:53,770 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:55,798 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:08:56,092 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:08:56,753 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:08:56,753 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:08:56,753 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:08:56,761 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:08:56,761 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:08:56,817 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:08:57,101 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:08:57,101 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:08:57,835 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:01,938 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:03,988 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:06,030 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:08,066 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:10,129 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:11,436 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:09:11,444 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:09:11,444 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:09:11,444 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:09:11,444 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:09:12,161 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:12,161 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:09:14,183 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:14,391 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:09:14,391 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:09:16,220 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:18,266 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:20,311 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:22,334 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:24,372 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:26,084 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:09:26,210 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:09:26,212 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: partial_history
+2022-12-04 18:09:26,215 DEBUG   SenderThread:14300 [sender.py:send():303] send: history
+2022-12-04 18:09:26,216 DEBUG   SenderThread:14300 [sender.py:send():303] send: summary
+2022-12-04 18:09:26,220 INFO    SenderThread:14300 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-04 18:09:26,398 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:26,399 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\wandb-summary.json
+2022-12-04 18:09:28,431 INFO    Thread-39 :14300 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Users\aitbudapest\OneDrive\Documents\GitHub\NFTPricePred\analysis\wandb\run-20221204_180514-13iripds\files\output.log
+2022-12-04 18:09:31,159 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:09:31,159 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:09:48,181 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:09:48,181 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:09:56,097 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:10:05,100 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:10:05,100 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:10:22,113 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:10:22,113 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:10:26,105 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:10:39,059 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:10:39,059 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:10:56,064 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:10:56,064 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:10:58,056 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:11:13,071 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:11:13,071 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:11:26,125 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:11:30,072 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:11:30,072 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:11:47,161 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:11:47,161 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:11:56,127 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:12:04,100 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:12:04,100 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:12:21,052 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:12:21,052 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:12:26,139 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:12:38,022 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:12:38,022 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:12:55,350 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:12:55,350 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
+2022-12-04 18:12:57,138 DEBUG   SenderThread:14300 [sender.py:send():303] send: stats
+2022-12-04 18:13:12,161 DEBUG   HandlerThread:14300 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-04 18:13:12,161 DEBUG   SenderThread:14300 [sender.py:send_request():317] send_request: stop_status
