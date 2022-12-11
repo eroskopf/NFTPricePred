@@ -1,0 +1,1 @@
+{"epoch": 24, "_timestamp": 1670695513.6618142, "loss": 0.11024843156337738, "mean_squared_error": 0.11024845391511917, "accuracy": 0.0, "mean_absolute_error": 0.2296392172574997, "_runtime": 1094.4972891807556, "_step": 49, "val_loss": NaN, "val_mean_squared_error": NaN, "val_accuracy": 0.0, "val_mean_absolute_error": NaN}

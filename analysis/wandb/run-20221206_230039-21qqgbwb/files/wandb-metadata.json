@@ -1,0 +1,41 @@
+{
+    "os": "Windows-10-10.0.22000-SP0",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-12-06T22:00:41.145206",
+    "startedAt": "2022-12-06T22:00:39.992473",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "OneDrive/Documents/GitHub/NFTPricePred/analysis/WandbWork.ipynb",
+    "root": "C:/Users/aitbudapest/OneDrive/Documents/GitHub/NFTPricePred",
+    "git": {
+        "remote": "https://github.com/eroskopf/NFTPricePred.git",
+        "commit": "f0b814362878133718170d3201a14f246f456316"
+    },
+    "email": "roskopfe@carleton.edu",
+    "host": "AIT2022-1",
+    "username": "aitbudapest",
+    "executable": "C:\\Users\\aitbudapest\\anaconda3\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1498.0,
+        "min": 0.0,
+        "max": 1498.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1498.0,
+            "min": 0.0,
+            "max": 1498.0
+        }
+    ],
+    "disk": {
+        "total": 474.18749618530273,
+        "used": 151.74057006835938
+    },
+    "memory": {
+        "total": 15.72928237915039
+    }
+}

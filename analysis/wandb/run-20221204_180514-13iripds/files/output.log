@@ -1,0 +1,127 @@
+Model: "model_2"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to
+==================================================================================================
+ input_3 (InputLayer)           [(None, 10, 5)]      0           []
+ lstm_6 (LSTM)                  [(None, 100),        42400       ['input_3[0][0]']
+                                 (None, 100),
+                                 (None, 100)]
+ repeat_vector_2 (RepeatVector)  (None, 5, 100)      0           ['lstm_6[0][0]']
+ lstm_7 (LSTM)                  (None, 5, 100)       80400       ['repeat_vector_2[0][0]',
+                                                                  'lstm_6[0][1]',
+                                                                  'lstm_6[0][2]']
+ time_distributed_2 (TimeDistri  (None, 5, 5)        505         ['lstm_7[0][0]']
+ buted)
+==================================================================================================
+Total params: 123,305
+Trainable params: 123,305
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Model: "model_3"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to
+==================================================================================================
+ input_4 (InputLayer)           [(None, 10, 5)]      0           []
+ lstm_8 (LSTM)                  [(None, 10, 100),    42400       ['input_4[0][0]']
+                                 (None, 100),
+                                 (None, 100)]
+ lstm_9 (LSTM)                  [(None, 100),        80400       ['lstm_8[0][0]']
+                                 (None, 100),
+                                 (None, 100)]
+ repeat_vector_3 (RepeatVector)  (None, 5, 100)      0           ['lstm_9[0][0]']
+ lstm_10 (LSTM)                 (None, 5, 100)       80400       ['repeat_vector_3[0][0]',
+                                                                  'lstm_8[0][1]',
+                                                                  'lstm_8[0][2]']
+ lstm_11 (LSTM)                 (None, 5, 100)       80400       ['lstm_10[0][0]',
+                                                                  'lstm_9[0][1]',
+                                                                  'lstm_9[0][2]']
+ time_distributed_3 (TimeDistri  (None, 5, 5)        505         ['lstm_11[0][0]']
+ buted)
+==================================================================================================
+Total params: 284,105
+Trainable params: 284,105
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Epoch 1/10
+
+
+
+
+
+
+
+1084/1084 [==============================] - 27s 14ms/step - loss: 0.0228 - mean_squared_error: 0.0228 - accuracy: 0.0000e+00 - mean_absolute_error: 0.0816
+Epoch 2/10
+
+
+
+
+
+
+1084/1084 [==============================] - 15s 13ms/step - loss: 0.0148 - mean_squared_error: 0.0148 - accuracy: 0.0000e+00 - mean_absolute_error: 0.0663
+Epoch 3/10
+
+
+
+
+
+
+1084/1084 [==============================] - 15s 14ms/step - loss: 0.0124 - mean_squared_error: 0.0124 - accuracy: 0.0000e+00 - mean_absolute_error: 0.0612
+Epoch 4/10
+
+
+
+
+
+
+
+1084/1084 [==============================] - 15s 14ms/step - loss: 0.0126 - mean_squared_error: 0.0126 - accuracy: 0.0000e+00 - mean_absolute_error: 0.0595
+Epoch 5/10
+
+
+
+
+
+
+1084/1084 [==============================] - 15s 14ms/step - loss: 0.0123 - mean_squared_error: 0.0123 - accuracy: 0.0000e+00 - mean_absolute_error: 0.0589
+Epoch 6/10
+
+
+
+
+
+
+1084/1084 [==============================] - 15s 13ms/step - loss: 0.0116 - mean_squared_error: 0.0116 - accuracy: 0.0000e+00 - mean_absolute_error: 0.0572
+Epoch 7/10
+
+
+
+
+
+
+
+1084/1084 [==============================] - 15s 14ms/step - loss: 0.0109 - mean_squared_error: 0.0109 - accuracy: 0.0000e+00 - mean_absolute_error: 0.0542
+Epoch 8/10
+
+
+
+
+
+
+1084/1084 [==============================] - 15s 14ms/step - loss: 0.0105 - mean_squared_error: 0.0105 - accuracy: 0.0000e+00 - mean_absolute_error: 0.0540
+Epoch 9/10
+
+
+
+
+
+1084/1084 [==============================] - 15s 14ms/step - loss: 0.0103 - mean_squared_error: 0.0103 - accuracy: 0.0000e+00 - mean_absolute_error: 0.0531
+Epoch 10/10
+
+
+
+
+
+
+
+
