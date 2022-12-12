@@ -1,0 +1,198 @@
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:18: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:18: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:18: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:18: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:18: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  train[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test[i]=s_s
+C:\Users\aitbudapest\AppData\Local\Temp\ipykernel_10380\2930816559.py:29: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test[i]=s_s
+            Sales_USD
+Date
+2017-11-11  -0.652536
+2017-11-12  -0.652981
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to
+==================================================================================================
+ input_1 (InputLayer)           [(None, 10, 4)]      0           []
+ lstm (LSTM)                    [(None, 4),          144         ['input_1[0][0]']
+                                 (None, 4),
+                                 (None, 4)]
+ repeat_vector (RepeatVector)   (None, 5, 4)         0           ['lstm[0][0]']
+ lstm_1 (LSTM)                  (None, 5, 4)         144         ['repeat_vector[0][0]',
+                                                                  'lstm[0][1]',
+                                                                  'lstm[0][2]']
+ time_distributed (TimeDistribu  (None, 5, 1)        5           ['lstm_1[0][0]']
+ ted)
+==================================================================================================
+Total params: 293
+Trainable params: 293
+Non-trainable params: 0
+__________________________________________________________________________________________________
+[34m[1mwandb[39m[22m: [33mWARNING[39m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+12/12 [==============================] - 1s 3ms/step
+[[[-0.61266595]
+  [-0.6283199 ]
+  [-0.63066655]
+  [-0.62713295]
+  [-0.62102854]]
+ [[-0.6009372 ]
+  [-0.6225361 ]
+  [-0.62909627]
+  [-0.62853396]
+  [-0.6246211 ]]
+ [[-0.6303892 ]
+  [-0.6448391 ]
+  [-0.6460227 ]
+  [-0.6415962 ]
+  [-0.63475573]]
+ ...
+ [[        nan]
+  [        nan]
+  [        nan]
+  [        nan]
+  [        nan]]
+ [[        nan]
+  [        nan]
+  [        nan]
+  [        nan]
+  [        nan]]
+ [[        nan]
+  [        nan]
+  [        nan]
+  [        nan]
+  [        nan]]]
+[[[-0.31002327]
+  [-0.26676647]
+  [-0.22132785]
+  [-0.20472602]
+  [-0.22859063]]
+ [[-0.26676647]
+  [-0.22132785]
+  [-0.20472602]
+  [-0.22859063]
+  [-0.272304  ]]
+ [[-0.22132785]
+  [-0.20472602]
+  [-0.22859063]
+  [-0.272304  ]
+  [-0.33889113]]
+ ...
+ [[ 5.59819131]
+  [ 5.7613405 ]
+  [ 6.03063384]
+  [ 6.05323221]
+  [ 6.0857561 ]]
+ [[ 5.7613405 ]
+  [ 6.03063384]
+  [ 6.05323221]
+  [ 6.0857561 ]
+  [ 5.96487804]]
+ [[ 6.03063384]
+  [ 6.05323221]
+  [ 6.0857561 ]
+  [ 5.96487804]
+  [ 6.01041249]]]
+Total accuracy sum: -92.58057150681464
+Total count of predicted values: 1740
+Mean accuracy: -0.053207225003916454
+(2, 2, 4)
+tf.Tensor([[[25 27]]], shape=(1, 1, 2), dtype=int32)
+(353, 10, 4)
+tf.Tensor(
+[[[-7.2997367e-01 -8.8161588e-01 -8.6061519e-01 -8.8415557e-01]
+  [-3.0294603e-01 -3.4831071e-01 -8.7653255e-01 -3.6244631e-02]
+  [-6.8689370e-01 -8.7062305e-01 -9.0234458e-01 -9.0485775e-01]
+  ...
+  [-7.8399724e-01 -9.0164125e-01 -7.9694557e-01 -9.2612636e-01]
+  [-7.4493039e-01 -8.8303804e-01 -9.1912240e-01 -8.9781022e-01]
+  [-8.1168765e-01 -9.0890574e-01 -9.2772639e-01 -9.2084068e-01]]
+ [[-3.0294603e-01 -3.4831071e-01 -8.7653255e-01 -3.6244631e-02]
+  [-6.8689370e-01 -8.7062305e-01 -9.0234458e-01 -9.0485775e-01]
+  [-6.8935847e-01 -8.4048891e-01 -8.4297699e-01 -8.5244149e-01]
+  ...
+  [-7.4493039e-01 -8.8303804e-01 -9.1912240e-01 -8.9781022e-01]
+  [-8.1168765e-01 -9.0890574e-01 -9.2772639e-01 -9.2084068e-01]
+  [-5.4898417e-01 -9.0552330e-01 -9.3288881e-01 -9.1096151e-01]]
+ [[-6.8689370e-01 -8.7062305e-01 -9.0234458e-01 -9.0485775e-01]
+  [-6.8935847e-01 -8.4048891e-01 -8.4297699e-01 -8.5244149e-01]
+  [-7.4339640e-01 -8.5317290e-01 -8.5459238e-01 -8.7654167e-01]
+  ...
+  [-8.1168765e-01 -9.0890574e-01 -9.2772639e-01 -9.2084068e-01]
+  [-5.4898417e-01 -9.0552330e-01 -9.3288881e-01 -9.1096151e-01]
+  [-7.5596553e-01 -9.0244842e-01 -8.8857818e-01 -9.0926254e-01]]
+ ...
+ [[ 3.7173630e+01  6.3750625e-01  3.7782321e+00  4.1524041e-01]
+  [ 7.2007751e+01  3.6926622e+00  1.1376641e+00  4.1397562e+00]
+  [ 4.9924381e+01  3.5088978e+00 -4.3342656e-01  3.3871131e+00]
+  ...
+  [ 2.8300539e+01  4.5085907e-02  2.1722951e+00 -1.1773217e-01]
+  [ 9.2102669e+01  1.0484300e+00  5.6893957e-01  2.1005538e+00]
+  [ 4.4878933e+01  1.0552716e+00  1.7042375e+00  1.2505035e+00]]
+ [[ 7.2007751e+01  3.6926622e+00  1.1376641e+00  4.1397562e+00]
+  [ 4.9924381e+01  3.5088978e+00 -4.3342656e-01  3.3871131e+00]
+  [ 3.3977432e+01  5.4279888e-01  2.8425467e+00  1.8852258e-01]
+  ...
+  [ 9.2102669e+01  1.0484300e+00  5.6893957e-01  2.1005538e+00]
+  [ 4.4878933e+01  1.0552716e+00  1.7042375e+00  1.2505035e+00]
+  [ 2.3577259e+01 -4.7549677e-01  1.7618842e+00 -2.3823303e-01]]
+ [[ 4.9924381e+01  3.5088978e+00 -4.3342656e-01  3.3871131e+00]
+  [ 3.3977432e+01  5.4279888e-01  2.8425467e+00  1.8852258e-01]
+  [ 2.8403154e+01  2.0555794e-01  5.5646372e-01 -1.3969243e-02]
+  ...
+  [ 4.4878933e+01  1.0552716e+00  1.7042375e+00  1.2505035e+00]
+  [ 2.3577259e+01 -4.7549677e-01  1.7618842e+00 -2.3823303e-01]
+  [ 5.6132217e+01  1.5901525e+00  1.3101742e+00  1.9572742e+00]]], shape=(348, 10, 4), dtype=float32)
+(353, 10, 4)
+3/3 [==============================] - 1s 7ms/step - loss: 1.5778 - mean_squared_error: 5.6485 - accuracy: 0.0000e+00 - mean_absolute_error: 2.0575
+test loss, test acc: [1.5777721405029297, 5.648524284362793, 0.0, 2.0574934482574463]
+dict_keys(['loss', 'mean_squared_error', 'accuracy', 'mean_absolute_error', 'val_loss', 'val_mean_squared_error', 'val_accuracy', 'val_mean_absolute_error'])
+dict_keys(['loss', 'mean_squared_error', 'accuracy', 'mean_absolute_error', 'val_loss', 'val_mean_squared_error', 'val_accuracy', 'val_mean_absolute_error'])
+dict_keys(['loss', 'mean_squared_error', 'accuracy', 'mean_absolute_error', 'val_loss', 'val_mean_squared_error', 'val_accuracy', 'val_mean_absolute_error'])
+dict_keys(['loss', 'mean_squared_error', 'accuracy', 'mean_absolute_error', 'val_loss', 'val_mean_squared_error', 'val_accuracy', 'val_mean_absolute_error'])
+dict_keys(['loss', 'mean_squared_error', 'accuracy', 'mean_absolute_error', 'val_loss', 'val_mean_squared_error', 'val_accuracy', 'val_mean_absolute_error'])
+dict_keys(['loss', 'mean_squared_error', 'accuracy', 'mean_absolute_error', 'val_loss', 'val_mean_squared_error', 'val_accuracy', 'val_mean_absolute_error'])
+dict_keys(['loss', 'mean_squared_error', 'accuracy', 'mean_absolute_error', 'val_loss', 'val_mean_squared_error', 'val_accuracy', 'val_mean_absolute_error'])
+dict_keys(['loss', 'mean_squared_error', 'accuracy', 'mean_absolute_error', 'val_loss', 'val_mean_squared_error', 'val_accuracy', 'val_mean_absolute_error'])
